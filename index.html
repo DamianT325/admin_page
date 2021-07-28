@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -12,9 +12,13 @@
     <title>Document</title>
   </head>
   <body>
+
+
+    <input type="checkbox" name="nav-toggle" id="nav-toggle">
     <div class="sidebar">
       <div class="sidebar-brand">
-        <h1><span class="lab la-accusoft"></span>Accusoft</h1>
+        
+        <h1><span class="lab la-accusoft"></span><span>Accusoft</span></h1>
       </div>
       <div class="sidebar-menu">
         <ul>
@@ -60,7 +64,7 @@
     <div class="main-content">
       <header>
         <h2>
-          <label for="">
+          <label for="nav-toggle">
             <span class="las la-bars"></span>
           </label>
           Dashboard
